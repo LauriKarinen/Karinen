@@ -1,0 +1,102 @@
+body{
+    background-color: red;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 16px;
+    font-weight: normal;
+
+    line-height: 1.6em;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:white;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color:purple;
+}
+.alusta1{
+    width:80%;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.alusta2{
+    background-color: black;
+    color: seagreen;
+    border-right:5px blue;
+    border-left:5px blue;
+    border-bottom:5px blue;
+    border-top:5px blue;
+
+    border-width: 3px;
+
+    border-top-style: dotted;
+
+    padding: 20px;
+    margin: 20px;
+}
+
+.alusta2 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+.alusta3{
+    border: 3px dotted grey;
+    padding: 20px;
+    margin: 20px 0;
+}
+.kategoriat{
+    border:1px grey;
+    padding: 10px;
+    border-radius: 15px;
+}
+.kategoriat h2{
+    text-align: center;
+}
+.kategoriat ul{
+    padding: 0;
+    padding-left: 20px;
+    list-style: square;
+}
+.kategoriat li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px black;
+    list-style-image: url("star.jpg");
+}
+.lomake{
+    padding: 20px;
+}
+.lomake .lomaketyylit{
+    padding-bottom: 15px;
+}
+.lomake label{
+    display: block;
+}
+.lomake input[type="text"]{
+    padding: 8px;
+    width: 100%;
+}
+.button{
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+.button:hover{
+    background-color: black;
+    color: red;
+}
