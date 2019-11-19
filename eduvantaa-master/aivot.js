@@ -1,3 +1,19 @@
+$(document).ready(function(){
+    $(toggle1).click(function(){
+        $(laatikko1).toggle();
+    });
+});
+$(document).ready(function(){
+    $(toggle2).click(function(){
+        $(laatikko2).toggle();
+    });
+});
+$(document).ready(function(){
+    $(toggle3).click(function(){
+        $(laatikko3).toggle();
+    });
+});
+
 function laatikkoFunktio(boxNumber){
     alert("Nyt vaihdetaan laatikko"+ boxNumber + ":n sisältöä!");
 
@@ -30,6 +46,4 @@ function yhteystietoFunktio() {
       text += x.elements[i].value + "<br>";
     }
     document.getElementById("yhteystiedotTuloste").innerHTML = text;
-  }
-
-
+}
